@@ -4,3 +4,4 @@
 /.settings/
 /src/main/resources/boot/.idea/
 /src/main/resources/boot/webpack-tutorial/asset-management/node_modules/
+/src/main/resources/boot/webpack-tutorial/output-management/node_modules/
