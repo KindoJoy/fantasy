@@ -1,4 +1,4 @@
-# Webpack引导
+# Webpack引导（参考https://www.webpackjs.com/guides/）
 >## 1.安装和起步
 + ### 根目录下，npm install -y默认初始化，生成package.json文件
 + ### webpack的安装，webpack 4+版本配合安装webpack-cli，一般不建议全局安装，以防构建失败，如require操作等，指令：npm install -g -D(--save-dev) webpack webpack-cli
@@ -17,3 +17,6 @@
     + #### webpack-dev-server：指令npm install --save-dev webpack-dev-server，webpack.config.js配置devServer:{contentBase:'.dist'}，在localhost:8080建立服务，package.json配置scripts添加start:webpack-dev-server --open，运行npm start,浏览器自动加载页面，修改源文件服务自动重新编译加载
     + #### webpack-dev-middle：指令npm install --save-dev express webpack-dev-middleware，webpack.config.js配置output添加publicPath:'/'，新建server.js编写服务，package.json配置scripts添加server:node server.js，运行npm run server启动服务，浏览器访问server.js中的配置，如localhost:3000，修改源文件，服务自动编译，实际效果需刷新页面
 + ### 调整文本编辑器：使用自动编译代码时，可能会在保存文件时遇到一些问题。某些编辑器具有“安全写入”功能，可能会影响重新编译
+>## 5.模块热替换
++ ### 用于开发，使用webpack插件，webpack.config.js配置devServer添加hot:true，plugins添加new webpack.NamedModulesPlugin()，new webpack.HotModuleReplacementPlugin()，output不能使用chunkhash，package.json配置scripts中start可改为webpack-dev-server --hotOnly，源文件index.js写入module.hot.accept，如监听源文件print.js，运行npm start进入服务，页面访问localhost:8080，此时修改print.js，页面console有关源文件print.js相应输出，实际效果需要对应module.hot.accept的回调函数
++ ### 修改样式表，指令npm install --save-dev style-loader css-loader，webpack.config.js配置module添加对应的rules，添加styles.css，可写入更改页面背景色样式，源文件index.js引入styles.css，启动服务，访问页面，此时更改styles.css文件有关页面背景色样式，服务重新编译加载，页面立即呈现效果
