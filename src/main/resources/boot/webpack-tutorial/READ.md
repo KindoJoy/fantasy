@@ -10,3 +10,10 @@
 + ### webpack.config.js添加规则(module:rules[...])，引导资源
 >## 3.输出管理
 + ### 插件html-webpack-plugin、clean-webpack-plugin的作用及配置
+>## 4.便捷开发
++ ### webpack.config.js配置devtool:inline-source-map，页面访问时会引导源文件，方便定位，不建议生产环境
++ ### 开发工具
+    + #### webpack's Watch Mode：观察文件改动，实际效果需要刷新页面
+    + #### webpack-dev-server：指令npm install --save-dev webpack-dev-server，webpack.config.js配置devServer:{contentBase:'.dist'}，在localhost:8080建立服务，package.json配置scripts添加start:webpack-dev-server --open，运行npm start,浏览器自动加载页面，修改源文件服务自动重新编译加载
+    + #### webpack-dev-middle：指令npm install --save-dev express webpack-dev-middleware，webpack.config.js配置output添加publicPath:'/'，新建server.js编写服务，package.json配置scripts添加server:node server.js，运行npm run server启动服务，浏览器访问server.js中的配置，如localhost:3000，修改源文件，服务自动编译，实际效果需刷新页面
++ ### 调整文本编辑器：使用自动编译代码时，可能会在保存文件时遇到一些问题。某些编辑器具有“安全写入”功能，可能会影响重新编译
