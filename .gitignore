@@ -7,3 +7,4 @@
 /src/main/resources/boot/webpack-tutorial/output-management/node_modules/
 /src/main/resources/boot/webpack-tutorial/easy-dev/node_modules/
 /src/main/resources/boot/webpack-tutorial/hmr/node_modules/
+/src/main/resources/boot/webpack-tutorial/tree-shaking/node_modules/

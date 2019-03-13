@@ -1,4 +1,4 @@
-# Webpack引导（参考https://www.webpackjs.com/guides/）
+# Webpack引导，参考https://www.webpackjs.com/guides/
 >## 1.安装和起步
 + ### 根目录下，npm install -y默认初始化，生成package.json文件
 + ### webpack的安装，webpack 4+版本配合安装webpack-cli，一般不建议全局安装，以防构建失败，如require操作等，指令：npm install -g -D(--save-dev) webpack webpack-cli
@@ -20,3 +20,6 @@
 >## 5.模块热替换
 + ### 用于开发，使用webpack插件，webpack.config.js配置devServer添加hot:true，plugins添加new webpack.NamedModulesPlugin()，new webpack.HotModuleReplacementPlugin()，output不能使用chunkhash，package.json配置scripts中start可改为webpack-dev-server --hotOnly，源文件index.js写入module.hot.accept，如监听源文件print.js，运行npm start进入服务，页面访问localhost:8080，此时修改print.js，页面console有关源文件print.js相应输出，实际效果需要对应module.hot.accept的回调函数
 + ### 修改样式表，指令npm install --save-dev style-loader css-loader，webpack.config.js配置module添加对应的rules，添加styles.css，可写入更改页面背景色样式，源文件index.js引入styles.css，启动服务，访问页面，此时更改styles.css文件有关页面背景色样式，服务重新编译加载，页面立即呈现效果
+>## 6.Tree Shaking
++ ### 你可以将应用程序想象成一棵树。绿色表示实际用到的源码和 library，是树上活的树叶。灰色表示无用的代码，是秋天树上枯萎的树叶。为了除去死去的树叶，你必须摇动这棵树，使它们落下
++ ### 指令webpack -p，使用UglifyJsPlugin，ES6的import、export，默认mode:production
