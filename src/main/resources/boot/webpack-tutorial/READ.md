@@ -23,3 +23,5 @@
 >## 6.Tree Shaking
 + ### 你可以将应用程序想象成一棵树。绿色表示实际用到的源码和 library，是树上活的树叶。灰色表示无用的代码，是秋天树上枯萎的树叶。为了除去死去的树叶，你必须摇动这棵树，使它们落下
 + ### 指令webpack -p，使用UglifyJsPlugin，ES6的import、export，默认mode:production
+>## 7.生产环境构建
++ ### 分别创建webpack.common.js、webpack.prod.js、webpack.dev.js配置文件，对应公共、产品、开发，写入相应操作
