@@ -9,3 +9,4 @@
 /src/main/resources/boot/webpack-tutorial/hmr/node_modules/
 /src/main/resources/boot/webpack-tutorial/tree-shaking/node_modules/
 /src/main/resources/boot/webpack-tutorial/prod-env-build/node_modules/
+/src/main/resources/boot/webpack-tutorial/progressive-web-app/node_modules/
