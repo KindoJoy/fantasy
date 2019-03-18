@@ -2,14 +2,7 @@ import React, { Component } from 'react';
 
 // import './assets/css/App.css';
 
-// import Kindo from './components/Kindo';
-// import List from './components/List';
-// import Alias from './components/Alias';
-// import Event from './components/Event';
-// import EventBind from './components/EventBind';
-// import TodoList from './components/TodoList';
-// import Parent from './components/Parent';
-import LifeCycleRoot from './components/LifeCycleRoot';
+import Router from './components/Router';
 
 class App extends Component {
   constructor(props) {
@@ -36,14 +29,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <Kindo />
-        <List></List>
-        <Alias />
-        <Event />
-        <EventBind />
-        <TodoList />
-        <Parent /> */}
-        <LifeCycleRoot />
+        <Router />
       </div>
     );
   }
