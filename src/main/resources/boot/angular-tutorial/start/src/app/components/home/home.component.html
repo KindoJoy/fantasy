@@ -1,0 +1,77 @@
+<div>time now:{{now | date:"yyyy-MM-dd hh:mm:ss.SSS"}}</div>
+
+<h2>{{title}}</h2>
+
+<h3>{{name | uppercase}}</h3>
+
+<h3>{{hide | lowercase}}</h3>
+
+<div *ngIf="flag">
+  1+6={{1+6}}
+</div>
+<div *ngIf="!flag">
+  1+1={{1+1}}
+</div>
+
+<div>
+  odd numbers in 5:
+  <ul *ngFor="let i of [0,1,2,3,4,5]">
+    <li *ngIf="i%2!==0">{{i}}</li>
+  </ul>
+</div>
+
+<div>
+  style class for numbers:
+  <ul *ngFor="let n of numbers">
+    <li [ngClass]="{red:n%2===0,blue:n%2!==0}">{{n}}</li>
+  </ul>
+</div>
+
+<div [ngStyle]="style">ngStyle</div>
+
+<div [ngSwitch]="httpStatus">
+  swich case for http status:{{httpStatus}}
+  <span *ngSwitchCase="200">success</span>
+  <span *ngSwitchCase="404">not found</span>
+</div>
+
+<div [title]="tag.title">{{tag.content}}</div>
+
+<div>{{htmlString}}</div>
+
+<div [innerHtml]="innerHtml"></div>
+
+<div>
+  <h3>languages:</h3>
+  <ul>
+    <li *ngFor="let item of languages;let key=index;">{{key}}.{{item}}</li>
+  </ul>
+</div>
+
+<div>
+  <h3>persons:</h3>
+  <ul>
+    <li *ngFor="let item of persons">name:{{item.name}},age:{{item.age}}</li>
+  </ul>
+</div>
+
+<div>
+  <h3>heros:</h3>
+  <ul>
+    <li *ngFor="let item of heros">
+      {{item.profession}} -- {{item.description}}
+      <ul>
+        <li *ngFor="let hero of item.heros">
+          {{hero.name}} -- {{hero.sex}}
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<button (click)="btnClick()">click me</button><br>
+
+<button (click)="changeHttpStatus()">change httpStatus</button><br>
+
+<!-- app module import FormsModule -->
+<input (keydown)="keyDown($event)" [(ngModel)]="keywords">{{keywords}}<br>

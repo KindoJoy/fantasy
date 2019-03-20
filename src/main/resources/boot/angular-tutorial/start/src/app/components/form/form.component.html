@@ -1,0 +1,31 @@
+<div>
+  <div>name:
+    <input type="text" [(ngModel)]="name" name="name" />
+  </div>
+  <div>sex:
+    <input type="radio" id="male" [(ngModel)]="sex" value="0" name="sex" />
+    <label for="male">male</label>
+    <input type="radio" id="female" [(ngModel)]="sex" value="1" name="sex" />
+    <label for="female">female</label>
+  </div>
+  <div>
+    city:
+    <select [(ngModel)]="city" name="city">
+      <option [value]="item.id" *ngFor="let item of citys">{{item.name}}</option>
+    </select>
+  </div>
+  <div>
+    hobby:
+    <span *ngFor="let item of hobbies;let key=index;">
+      <input type="checkbox" [id]="'hobby_'+key" [value]="item.id" name="hobby" [(ngModel)]="item.checked" />
+      <label [for]="'hobby_'+key">{{item.name}}</label>
+    </span>
+  </div>
+  <div>remarks:
+    <textarea [(ngModel)]="remarks" name="remarks"></textarea>
+  </div>
+  <div>
+    <button (click)="submit()">submit</button>
+  </div>
+</div>
+<div>data:{{data | json}}</div>

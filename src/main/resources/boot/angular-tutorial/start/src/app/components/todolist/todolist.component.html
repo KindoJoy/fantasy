@@ -1,0 +1,23 @@
+<div class="todolist">
+  <h2>To Do List</h2>
+  <input class="new-todo-content" [(ngModel)]="newTodoContent" (keyup)="newTodoContentChange($event)"
+    placeholder="please input, key enter add!" />
+  <hr />
+  TODO
+  <ol>
+    <li *ngFor="let item of todoList;let key=index;">
+      <input type="checkbox" [id]="'todo_'+key" (change)="todoStatusChange($event,item)" [(ngModel)]="item.status" />
+      <label [for]="'todo_'+key">{{item.content}}--</label>
+      <button (click)="removeTodo(item)">remove</button>
+    </li>
+  </ol>
+  <hr />
+  FINISHED
+  <ol>
+    <li *ngFor="let item of finishedList;let key=index;">
+      <input type="checkbox" [id]="'finish_todo_'+key" (change)="todoStatusChange($event,item)"
+        [(ngModel)]="item.status" />
+      <label [for]="'finish_todo_'+key">{{item.content}}</label>
+    </li>
+  </ol>
+</div>
