@@ -1,0 +1,5 @@
+<ul>
+  <li *ngFor="let item of news" (click)="send(item.id)">
+    <a [routerLink]="['list',item.id]" [queryParams]="{aid:item.id}" routerLinkActive="active">{{item.title}}</a>
+  </li>
+</ul>

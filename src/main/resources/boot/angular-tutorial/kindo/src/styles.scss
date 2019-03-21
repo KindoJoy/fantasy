@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+.header{
+    min-height: 32px;
+    display: flex;
+    border-bottom: 1px solid black;
+    
+    ul{
+        display: flex;
+    }
+
+    li{
+        min-width: 100px;
+    }
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+
+    .left{
+        width: 20vw;
+        height: 80vh;
+    }
+
+    .right{
+        flex: 1;
+        border-left: 1px solid black;
+    }
+}
+
+.active{
+    background: red;
+}

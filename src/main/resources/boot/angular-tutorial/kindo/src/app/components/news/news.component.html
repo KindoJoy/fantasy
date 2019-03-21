@@ -1,0 +1,9 @@
+<div class="content">
+  <div class="left">
+    <app-list #list (outer)="getIdFromViewList($event)" [news]="news"></app-list>
+  </div>
+  <div class="right">
+    <app-content #content></app-content>
+    <button (click)="goHome()">Go Home</button>
+  </div>
+</div>
