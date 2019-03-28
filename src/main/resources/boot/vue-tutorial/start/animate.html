@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Animate</title>
+    <script src="../../plugins/vue/vue-2.6.10.js"></script>
+    <style>
+        .v-enter,
+        .v-leave-to {
+            transform: translateY(50px);
+        }
+
+        .v-enter-active,
+        .v-leave-active {
+            transition: all 0.4s ease;
+        }
+
+        .v-move {
+            transition: all 0.4 ease;
+        }
+
+        .v-leave-active {
+            position: absolute;
+        }
+
+        li {
+            width: 200px;
+            border: 1px dashed grey;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        li:hover {
+            background: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <div>
+            Name:
+            <input v-model="name" v-focus />
+            <button @click="add">Add</button>
+        </div>
+        <transition-group tag="ol" appear>
+            <li v-for="item in list" :key="item.id" @click="del(item.id)">
+                {{item.id}} -- {{item.name}}
+            </li>
+        </transition-group>
+    </div>
+    <script>
+        var idSeed = Date.now();
+        function newId() {
+            return (++idSeed).toString(36);
+        }
+        var vm = new Vue({
+            el: '#app',
+            directives: {
+                focus: {
+                    inserted: function (el) { el.focus(); }
+                }
+            },
+            data: {
+                name: '',
+                list: [
+                    { id: newId(), name: 'Jack' },
+                    { id: newId(), name: 'Luna' },
+                    { id: newId(), name: 'Franch' }
+                ]
+            },
+            methods: {
+                add() {
+                    this.list.push({ id: newId(), name: this.name });
+                    this.name = '';
+                },
+                del(id) {
+                    this.list.splice(this.list.findIndex(item => id === item.id), 1);
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>

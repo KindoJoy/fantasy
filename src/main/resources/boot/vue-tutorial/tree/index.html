@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tree</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="../../plugins/vue/vue-2.6.10.js"></script>
+    <script src="../../plugins/vue/vue-resource-1.5.1.js"></script>
+
+</head>
+
+<body>
+
+    <template id="tree_template">
+        <div :id="id" class="tree" @contextmenu.prevent>
+            <ul class="node-list">
+                <node v-for="item in data" :id="item.id" :name="item.name" :children="item.children" :key="item.id">
+                </node>
+            </ul>
+        </div>
+    </template>
+
+    <template id="node_template">
+        <li :id="id" :class="classes">
+            <div class="content">
+                <div class="icon" @click.self="open=!open"></div>
+                <div class="title">{{name}}</div>
+            </div>
+            <ul class="node-list" v-if="openStatus">
+                <node v-for="item in children" :id="item.id" :name="item.name" :children="item.children" :key="item.id">
+                </node>
+            </ul>
+        </li>
+    </template>
+
+    <div id="app">
+        <tree id="tree" :data="data"></tree>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

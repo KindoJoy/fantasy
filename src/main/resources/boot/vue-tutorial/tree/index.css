@@ -1,0 +1,53 @@
+html * {
+    margin: 0;
+    padding: 0;
+}
+
+.tree {
+    overflow: auto;
+    height: 100vh;
+    width: 250px;
+    background-color: #e2e5ee;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.node-list>.node {
+    /* overflow: auto; */
+    list-style-type: none;
+}
+
+.node>.node-list {
+    margin-left: 16px;
+    overflow: auto;
+}
+
+.node>.content {
+    display: inline-flex;
+    border-radius: 5px;
+}
+
+.node>.content:hover {
+    background-color: #1dece2;
+}
+
+.content>.title {
+    color: #000;
+}
+
+.content>.icon {
+    cursor: pointer;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    background-image: url(./imgs/right.ico);
+}
+
+.open>.content>.icon {
+    background-image: url(./imgs/down.ico);
+}
+
+.leaf>.content>.icon {
+    background-image: url(./imgs/leaf.ico);
+}

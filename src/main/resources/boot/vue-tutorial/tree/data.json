@@ -1,0 +1,1294 @@
+[
+    {
+        "name": "flare",
+        "children": [
+            {
+                "name": "analytics",
+                "children": [
+                    {
+                        "name": "cluster",
+                        "children": [
+                            {
+                                "name": "AgglomerativeCluster",
+                                "id": "jtrgwyhi",
+                                "children": []
+                            },
+                            {
+                                "name": "CommunityStructure",
+                                "id": "jtrgwyhj",
+                                "children": []
+                            },
+                            {
+                                "name": "HierarchicalCluster",
+                                "id": "jtrgwyhk",
+                                "children": []
+                            },
+                            {
+                                "name": "MergeEdge",
+                                "id": "jtrgwyhl",
+                                "children": []
+                            }
+                        ],
+                        "id": "jtrgwyhf"
+                    },
+                    {
+                        "name": "graph",
+                        "children": [
+                            {
+                                "name": "BetweennessCentrality",
+                                "id": "jtrgwyhm",
+                                "children": []
+                            },
+                            {
+                                "name": "LinkDistance",
+                                "id": "jtrgwyhn",
+                                "children": []
+                            },
+                            {
+                                "name": "MaxFlowMinCut",
+                                "id": "jtrgwyho",
+                                "children": []
+                            },
+                            {
+                                "name": "ShortestPaths",
+                                "id": "jtrgwyhp",
+                                "children": []
+                            },
+                            {
+                                "name": "SpanningTree",
+                                "id": "jtrgwyhq",
+                                "children": []
+                            }
+                        ],
+                        "id": "jtrgwyhg"
+                    },
+                    {
+                        "name": "optimization",
+                        "children": [
+                            {
+                                "name": "AspectRatioBanker",
+                                "id": "jtrgwyhr",
+                                "children": []
+                            }
+                        ],
+                        "id": "jtrgwyhh"
+                    }
+                ],
+                "id": "jtrgwyh5"
+            },
+            {
+                "name": "animate",
+                "children": [
+                    {
+                        "name": "Easing",
+                        "id": "jtrgwyhs",
+                        "children": []
+                    },
+                    {
+                        "name": "FunctionSequence",
+                        "id": "jtrgwyht",
+                        "children": []
+                    },
+                    {
+                        "name": "interpolate",
+                        "children": [
+                            {
+                                "name": "ArrayInterpolator",
+                                "id": "jtrgwyi4",
+                                "children": []
+                            },
+                            {
+                                "name": "ColorInterpolator",
+                                "id": "jtrgwyi5",
+                                "children": []
+                            },
+                            {
+                                "name": "DateInterpolator",
+                                "id": "jtrgwyi6",
+                                "children": []
+                            },
+                            {
+                                "name": "Interpolator",
+                                "id": "jtrgwyi7",
+                                "children": []
+                            },
+                            {
+                                "name": "MatrixInterpolator",
+                                "id": "jtrgwyi8",
+                                "children": []
+                            },
+                            {
+                                "name": "NumberInterpolator",
+                                "id": "jtrgwyi9",
+                                "children": []
+                            },
+                            {
+                                "name": "ObjectInterpolator",
+                                "id": "jtrgwyia",
+                                "children": []
+                            },
+                            {
+                                "name": "PointInterpolator",
+                                "id": "jtrgwyib",
+                                "children": []
+                            },
+                            {
+                                "name": "RectangleInterpolator",
+                                "id": "jtrgwyic",
+                                "children": []
+                            }
+                        ],
+                        "id": "jtrgwyhu"
+                    },
+                    {
+                        "name": "ISchedulable",
+                        "id": "jtrgwyhv",
+                        "children": []
+                    },
+                    {
+                        "name": "Parallel",
+                        "id": "jtrgwyhw",
+                        "children": []
+                    },
+                    {
+                        "name": "Pause",
+                        "id": "jtrgwyhx",
+                        "children": []
+                    },
+                    {
+                        "name": "Scheduler",
+                        "id": "jtrgwyhy",
+                        "children": []
+                    },
+                    {
+                        "name": "Sequence",
+                        "id": "jtrgwyhz",
+                        "children": []
+                    },
+                    {
+                        "name": "Transition",
+                        "id": "jtrgwyi0",
+                        "children": []
+                    },
+                    {
+                        "name": "Transitioner",
+                        "id": "jtrgwyi1",
+                        "children": []
+                    },
+                    {
+                        "name": "TransitionEvent",
+                        "id": "jtrgwyi2",
+                        "children": []
+                    },
+                    {
+                        "name": "Tween",
+                        "id": "jtrgwyi3",
+                        "children": []
+                    }
+                ],
+                "id": "jtrgwyh6"
+            },
+            {
+                "name": "data",
+                "children": [
+                    {
+                        "name": "converters",
+                        "children": [
+                            {
+                                "name": "Converters",
+                                "id": "jtrgwyik",
+                                "children": []
+                            },
+                            {
+                                "name": "DelimitedTextConverter",
+                                "id": "jtrgwyil",
+                                "children": []
+                            },
+                            {
+                                "name": "GraphMLConverter",
+                                "id": "jtrgwyim",
+                                "children": []
+                            },
+                            {
+                                "name": "IDataConverter",
+                                "id": "jtrgwyin",
+                                "children": []
+                            },
+                            {
+                                "name": "JSONConverter",
+                                "id": "jtrgwyio",
+                                "children": []
+                            }
+                        ],
+                        "id": "jtrgwyid"
+                    },
+                    {
+                        "name": "DataField",
+                        "id": "jtrgwyie",
+                        "children": []
+                    },
+                    {
+                        "name": "DataSchema",
+                        "id": "jtrgwyif",
+                        "children": []
+                    },
+                    {
+                        "name": "DataSet",
+                        "id": "jtrgwyig",
+                        "children": []
+                    },
+                    {
+                        "name": "DataSource",
+                        "id": "jtrgwyih",
+                        "children": []
+                    },
+                    {
+                        "name": "DataTable",
+                        "id": "jtrgwyii",
+                        "children": []
+                    },
+                    {
+                        "name": "DataUtil",
+                        "id": "jtrgwyij",
+                        "children": []
+                    }
+                ],
+                "id": "jtrgwyh7"
+            },
+            {
+                "name": "display",
+                "children": [
+                    {
+                        "name": "DirtySprite",
+                        "id": "jtrgwyip",
+                        "children": []
+                    },
+                    {
+                        "name": "LineSprite",
+                        "id": "jtrgwyiq",
+                        "children": []
+                    },
+                    {
+                        "name": "RectSprite",
+                        "id": "jtrgwyir",
+                        "children": []
+                    },
+                    {
+                        "name": "TextSprite",
+                        "id": "jtrgwyis",
+                        "children": []
+                    }
+                ],
+                "id": "jtrgwyh8"
+            },
+            {
+                "name": "flex",
+                "children": [
+                    {
+                        "name": "FlareVis",
+                        "id": "jtrgwyit",
+                        "children": []
+                    }
+                ],
+                "id": "jtrgwyh9"
+            },
+            {
+                "name": "physics",
+                "children": [
+                    {
+                        "name": "DragForce",
+                        "id": "jtrgwyiu",
+                        "children": []
+                    },
+                    {
+                        "name": "GravityForce",
+                        "id": "jtrgwyiv",
+                        "children": []
+                    },
+                    {
+                        "name": "IForce",
+                        "id": "jtrgwyiw",
+                        "children": []
+                    },
+                    {
+                        "name": "NBodyForce",
+                        "id": "jtrgwyix",
+                        "children": []
+                    },
+                    {
+                        "name": "Particle",
+                        "id": "jtrgwyiy",
+                        "children": []
+                    },
+                    {
+                        "name": "Simulation",
+                        "id": "jtrgwyiz",
+                        "children": []
+                    },
+                    {
+                        "name": "Spring",
+                        "id": "jtrgwyj0",
+                        "children": []
+                    },
+                    {
+                        "name": "SpringForce",
+                        "id": "jtrgwyj1",
+                        "children": []
+                    }
+                ],
+                "id": "jtrgwyha"
+            },
+            {
+                "name": "query",
+                "children": [
+                    {
+                        "name": "AggregateExpression",
+                        "id": "jtrgwyj2",
+                        "children": []
+                    },
+                    {
+                        "name": "And",
+                        "id": "jtrgwyj3",
+                        "children": []
+                    },
+                    {
+                        "name": "Arithmetic",
+                        "id": "jtrgwyj4",
+                        "children": []
+                    },
+                    {
+                        "name": "Average",
+                        "id": "jtrgwyj5",
+                        "children": []
+                    },
+                    {
+                        "name": "BinaryExpression",
+                        "id": "jtrgwyj6",
+                        "children": []
+                    },
+                    {
+                        "name": "Comparison",
+                        "id": "jtrgwyj7",
+                        "children": []
+                    },
+                    {
+                        "name": "CompositeExpression",
+                        "id": "jtrgwyj8",
+                        "children": []
+                    },
+                    {
+                        "name": "Count",
+                        "id": "jtrgwyj9",
+                        "children": []
+                    },
+                    {
+                        "name": "DateUtil",
+                        "id": "jtrgwyja",
+                        "children": []
+                    },
+                    {
+                        "name": "Distinct",
+                        "id": "jtrgwyjb",
+                        "children": []
+                    },
+                    {
+                        "name": "Expression",
+                        "id": "jtrgwyjc",
+                        "children": []
+                    },
+                    {
+                        "name": "ExpressionIterator",
+                        "id": "jtrgwyjd",
+                        "children": []
+                    },
+                    {
+                        "name": "Fn",
+                        "id": "jtrgwyje",
+                        "children": []
+                    },
+                    {
+                        "name": "If",
+                        "id": "jtrgwyjf",
+                        "children": []
+                    },
+                    {
+                        "name": "IsA",
+                        "id": "jtrgwyjg",
+                        "children": []
+                    },
+                    {
+                        "name": "Literal",
+                        "id": "jtrgwyjh",
+                        "children": []
+                    },
+                    {
+                        "name": "Match",
+                        "id": "jtrgwyji",
+                        "children": []
+                    },
+                    {
+                        "name": "Maximum",
+                        "id": "jtrgwyjj",
+                        "children": []
+                    },
+                    {
+                        "name": "methods",
+                        "children": [
+                            {
+                                "name": "add",
+                                "id": "jtrgwyjv",
+                                "children": []
+                            },
+                            {
+                                "name": "and",
+                                "id": "jtrgwyjw",
+                                "children": []
+                            },
+                            {
+                                "name": "average",
+                                "id": "jtrgwyjx",
+                                "children": []
+                            },
+                            {
+                                "name": "count",
+                                "id": "jtrgwyjy",
+                                "children": []
+                            },
+                            {
+                                "name": "distinct",
+                                "id": "jtrgwyjz",
+                                "children": []
+                            },
+                            {
+                                "name": "div",
+                                "id": "jtrgwyk0",
+                                "children": []
+                            },
+                            {
+                                "name": "eq",
+                                "id": "jtrgwyk1",
+                                "children": []
+                            },
+                            {
+                                "name": "fn",
+                                "id": "jtrgwyk2",
+                                "children": []
+                            },
+                            {
+                                "name": "gt",
+                                "id": "jtrgwyk3",
+                                "children": []
+                            },
+                            {
+                                "name": "gte",
+                                "id": "jtrgwyk4",
+                                "children": []
+                            },
+                            {
+                                "name": "iff",
+                                "id": "jtrgwyk5",
+                                "children": []
+                            },
+                            {
+                                "name": "isa",
+                                "id": "jtrgwyk6",
+                                "children": []
+                            },
+                            {
+                                "name": "lt",
+                                "id": "jtrgwyk7",
+                                "children": []
+                            },
+                            {
+                                "name": "lte",
+                                "id": "jtrgwyk8",
+                                "children": []
+                            },
+                            {
+                                "name": "max",
+                                "id": "jtrgwyk9",
+                                "children": []
+                            },
+                            {
+                                "name": "min",
+                                "id": "jtrgwyka",
+                                "children": []
+                            },
+                            {
+                                "name": "mod",
+                                "id": "jtrgwykb",
+                                "children": []
+                            },
+                            {
+                                "name": "mul",
+                                "id": "jtrgwykc",
+                                "children": []
+                            },
+                            {
+                                "name": "neq",
+                                "id": "jtrgwykd",
+                                "children": []
+                            },
+                            {
+                                "name": "not",
+                                "id": "jtrgwyke",
+                                "children": []
+                            },
+                            {
+                                "name": "or",
+                                "id": "jtrgwykf",
+                                "children": []
+                            },
+                            {
+                                "name": "orderby",
+                                "id": "jtrgwykg",
+                                "children": []
+                            },
+                            {
+                                "name": "range",
+                                "id": "jtrgwykh",
+                                "children": []
+                            },
+                            {
+                                "name": "select",
+                                "id": "jtrgwyki",
+                                "children": []
+                            },
+                            {
+                                "name": "stddev",
+                                "id": "jtrgwykj",
+                                "children": []
+                            },
+                            {
+                                "name": "sub",
+                                "id": "jtrgwykk",
+                                "children": []
+                            },
+                            {
+                                "name": "sum",
+                                "id": "jtrgwykl",
+                                "children": []
+                            },
+                            {
+                                "name": "update",
+                                "id": "jtrgwykm",
+                                "children": []
+                            },
+                            {
+                                "name": "variance",
+                                "id": "jtrgwykn",
+                                "children": []
+                            },
+                            {
+                                "name": "where",
+                                "id": "jtrgwyko",
+                                "children": []
+                            },
+                            {
+                                "name": "xor",
+                                "id": "jtrgwykp",
+                                "children": []
+                            },
+                            {
+                                "name": "_",
+                                "id": "jtrgwykq",
+                                "children": []
+                            }
+                        ],
+                        "id": "jtrgwyjk"
+                    },
+                    {
+                        "name": "Minimum",
+                        "id": "jtrgwyjl",
+                        "children": []
+                    },
+                    {
+                        "name": "Not",
+                        "id": "jtrgwyjm",
+                        "children": []
+                    },
+                    {
+                        "name": "Or",
+                        "id": "jtrgwyjn",
+                        "children": []
+                    },
+                    {
+                        "name": "Query",
+                        "id": "jtrgwyjo",
+                        "children": []
+                    },
+                    {
+                        "name": "Range",
+                        "id": "jtrgwyjp",
+                        "children": []
+                    },
+                    {
+                        "name": "StringUtil",
+                        "id": "jtrgwyjq",
+                        "children": []
+                    },
+                    {
+                        "name": "Sum",
+                        "id": "jtrgwyjr",
+                        "children": []
+                    },
+                    {
+                        "name": "Variable",
+                        "id": "jtrgwyjs",
+                        "children": []
+                    },
+                    {
+                        "name": "Variance",
+                        "id": "jtrgwyjt",
+                        "children": []
+                    },
+                    {
+                        "name": "Xor",
+                        "id": "jtrgwyju",
+                        "children": []
+                    }
+                ],
+                "id": "jtrgwyhb"
+            },
+            {
+                "name": "scale",
+                "children": [
+                    {
+                        "name": "IScaleMap",
+                        "id": "jtrgwykr",
+                        "children": []
+                    },
+                    {
+                        "name": "LinearScale",
+                        "id": "jtrgwyks",
+                        "children": []
+                    },
+                    {
+                        "name": "LogScale",
+                        "id": "jtrgwykt",
+                        "children": []
+                    },
+                    {
+                        "name": "OrdinalScale",
+                        "id": "jtrgwyku",
+                        "children": []
+                    },
+                    {
+                        "name": "QuantileScale",
+                        "id": "jtrgwykv",
+                        "children": []
+                    },
+                    {
+                        "name": "QuantitativeScale",
+                        "id": "jtrgwykw",
+                        "children": []
+                    },
+                    {
+                        "name": "RootScale",
+                        "id": "jtrgwykx",
+                        "children": []
+                    },
+                    {
+                        "name": "Scale",
+                        "id": "jtrgwyky",
+                        "children": []
+                    },
+                    {
+                        "name": "ScaleType",
+                        "id": "jtrgwykz",
+                        "children": []
+                    },
+                    {
+                        "name": "TimeScale",
+                        "id": "jtrgwyl0",
+                        "children": []
+                    }
+                ],
+                "id": "jtrgwyhc"
+            },
+            {
+                "name": "util",
+                "children": [
+                    {
+                        "name": "Arrays",
+                        "id": "jtrgwyl1",
+                        "children": []
+                    },
+                    {
+                        "name": "Colors",
+                        "id": "jtrgwyl2",
+                        "children": []
+                    },
+                    {
+                        "name": "Dates",
+                        "id": "jtrgwyl3",
+                        "children": []
+                    },
+                    {
+                        "name": "Displays",
+                        "id": "jtrgwyl4",
+                        "children": []
+                    },
+                    {
+                        "name": "Filter",
+                        "id": "jtrgwyl5",
+                        "children": []
+                    },
+                    {
+                        "name": "Geometry",
+                        "id": "jtrgwyl6",
+                        "children": []
+                    },
+                    {
+                        "name": "heap",
+                        "children": [
+                            {
+                                "name": "FibonacciHeap",
+                                "id": "jtrgwylk",
+                                "children": []
+                            },
+                            {
+                                "name": "HeapNode",
+                                "id": "jtrgwyll",
+                                "children": []
+                            }
+                        ],
+                        "id": "jtrgwyl7"
+                    },
+                    {
+                        "name": "IEvaluable",
+                        "id": "jtrgwyl8",
+                        "children": []
+                    },
+                    {
+                        "name": "IPredicate",
+                        "id": "jtrgwyl9",
+                        "children": []
+                    },
+                    {
+                        "name": "IValueProxy",
+                        "id": "jtrgwyla",
+                        "children": []
+                    },
+                    {
+                        "name": "math",
+                        "children": [
+                            {
+                                "name": "DenseMatrix",
+                                "id": "jtrgwylm",
+                                "children": []
+                            },
+                            {
+                                "name": "IMatrix",
+                                "id": "jtrgwyln",
+                                "children": []
+                            },
+                            {
+                                "name": "SparseMatrix",
+                                "id": "jtrgwylo",
+                                "children": []
+                            }
+                        ],
+                        "id": "jtrgwylb"
+                    },
+                    {
+                        "name": "Maths",
+                        "id": "jtrgwylc",
+                        "children": []
+                    },
+                    {
+                        "name": "Orientation",
+                        "id": "jtrgwyld",
+                        "children": []
+                    },
+                    {
+                        "name": "palette",
+                        "children": [
+                            {
+                                "name": "ColorPalette",
+                                "id": "jtrgwylp",
+                                "children": []
+                            },
+                            {
+                                "name": "Palette",
+                                "id": "jtrgwylq",
+                                "children": []
+                            },
+                            {
+                                "name": "ShapePalette",
+                                "id": "jtrgwylr",
+                                "children": []
+                            },
+                            {
+                                "name": "SizePalette",
+                                "id": "jtrgwyls",
+                                "children": []
+                            }
+                        ],
+                        "id": "jtrgwyle"
+                    },
+                    {
+                        "name": "Property",
+                        "id": "jtrgwylf",
+                        "children": []
+                    },
+                    {
+                        "name": "Shapes",
+                        "id": "jtrgwylg",
+                        "children": []
+                    },
+                    {
+                        "name": "Sort",
+                        "id": "jtrgwylh",
+                        "children": []
+                    },
+                    {
+                        "name": "Stats",
+                        "id": "jtrgwyli",
+                        "children": []
+                    },
+                    {
+                        "name": "Strings",
+                        "id": "jtrgwylj",
+                        "children": []
+                    }
+                ],
+                "id": "jtrgwyhd"
+            },
+            {
+                "name": "vis",
+                "children": [
+                    {
+                        "name": "axis",
+                        "children": [
+                            {
+                                "name": "Axes",
+                                "id": "jtrgwym0",
+                                "children": []
+                            },
+                            {
+                                "name": "Axis",
+                                "id": "jtrgwym1",
+                                "children": []
+                            },
+                            {
+                                "name": "AxisGridLine",
+                                "id": "jtrgwym2",
+                                "children": []
+                            },
+                            {
+                                "name": "AxisLabel",
+                                "id": "jtrgwym3",
+                                "children": []
+                            },
+                            {
+                                "name": "CartesianAxes",
+                                "id": "jtrgwym4",
+                                "children": []
+                            }
+                        ],
+                        "id": "jtrgwylt"
+                    },
+                    {
+                        "name": "controls",
+                        "children": [
+                            {
+                                "name": "AnchorControl",
+                                "id": "jtrgwym5",
+                                "children": []
+                            },
+                            {
+                                "name": "ClickControl",
+                                "id": "jtrgwym6",
+                                "children": []
+                            },
+                            {
+                                "name": "Control",
+                                "id": "jtrgwym7",
+                                "children": []
+                            },
+                            {
+                                "name": "ControlList",
+                                "id": "jtrgwym8",
+                                "children": []
+                            },
+                            {
+                                "name": "DragControl",
+                                "id": "jtrgwym9",
+                                "children": []
+                            },
+                            {
+                                "name": "ExpandControl",
+                                "id": "jtrgwyma",
+                                "children": []
+                            },
+                            {
+                                "name": "HoverControl",
+                                "id": "jtrgwymb",
+                                "children": []
+                            },
+                            {
+                                "name": "IControl",
+                                "id": "jtrgwymc",
+                                "children": []
+                            },
+                            {
+                                "name": "PanZoomControl",
+                                "id": "jtrgwymd",
+                                "children": []
+                            },
+                            {
+                                "name": "SelectionControl",
+                                "id": "jtrgwyme",
+                                "children": []
+                            },
+                            {
+                                "name": "TooltipControl",
+                                "id": "jtrgwymf",
+                                "children": []
+                            }
+                        ],
+                        "id": "jtrgwylu"
+                    },
+                    {
+                        "name": "data",
+                        "children": [
+                            {
+                                "name": "Data",
+                                "id": "jtrgwymg",
+                                "children": []
+                            },
+                            {
+                                "name": "DataList",
+                                "id": "jtrgwymh",
+                                "children": []
+                            },
+                            {
+                                "name": "DataSprite",
+                                "id": "jtrgwymi",
+                                "children": []
+                            },
+                            {
+                                "name": "EdgeSprite",
+                                "id": "jtrgwymj",
+                                "children": []
+                            },
+                            {
+                                "name": "NodeSprite",
+                                "id": "jtrgwymk",
+                                "children": []
+                            },
+                            {
+                                "name": "render",
+                                "children": [
+                                    {
+                                        "name": "ArrowType",
+                                        "id": "jtrgwymp",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "EdgeRenderer",
+                                        "id": "jtrgwymq",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "IRenderer",
+                                        "id": "jtrgwymr",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "ShapeRenderer",
+                                        "id": "jtrgwyms",
+                                        "children": []
+                                    }
+                                ],
+                                "id": "jtrgwyml"
+                            },
+                            {
+                                "name": "ScaleBinding",
+                                "id": "jtrgwymm",
+                                "children": []
+                            },
+                            {
+                                "name": "Tree",
+                                "id": "jtrgwymn",
+                                "children": []
+                            },
+                            {
+                                "name": "TreeBuilder",
+                                "id": "jtrgwymo",
+                                "children": []
+                            }
+                        ],
+                        "id": "jtrgwylv"
+                    },
+                    {
+                        "name": "events",
+                        "children": [
+                            {
+                                "name": "DataEvent",
+                                "id": "jtrgwymt",
+                                "children": []
+                            },
+                            {
+                                "name": "SelectionEvent",
+                                "id": "jtrgwymu",
+                                "children": []
+                            },
+                            {
+                                "name": "TooltipEvent",
+                                "id": "jtrgwymv",
+                                "children": []
+                            },
+                            {
+                                "name": "VisualizationEvent",
+                                "id": "jtrgwymw",
+                                "children": []
+                            }
+                        ],
+                        "id": "jtrgwylw"
+                    },
+                    {
+                        "name": "legend",
+                        "children": [
+                            {
+                                "name": "Legend",
+                                "id": "jtrgwymx",
+                                "children": []
+                            },
+                            {
+                                "name": "LegendItem",
+                                "id": "jtrgwymy",
+                                "children": []
+                            },
+                            {
+                                "name": "LegendRange",
+                                "id": "jtrgwymz",
+                                "children": []
+                            }
+                        ],
+                        "id": "jtrgwylx"
+                    },
+                    {
+                        "name": "operator",
+                        "children": [
+                            {
+                                "name": "distortion",
+                                "children": [
+                                    {
+                                        "name": "BifocalDistortion",
+                                        "id": "jtrgwynb",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "Distortion",
+                                        "id": "jtrgwync",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "FisheyeDistortion",
+                                        "id": "jtrgwynd",
+                                        "children": []
+                                    }
+                                ],
+                                "id": "jtrgwyn0"
+                            },
+                            {
+                                "name": "encoder",
+                                "children": [
+                                    {
+                                        "name": "ColorEncoder",
+                                        "id": "jtrgwyne",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "Encoder",
+                                        "id": "jtrgwynf",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "PropertyEncoder",
+                                        "id": "jtrgwyng",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "ShapeEncoder",
+                                        "id": "jtrgwynh",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "SizeEncoder",
+                                        "id": "jtrgwyni",
+                                        "children": []
+                                    }
+                                ],
+                                "id": "jtrgwyn1"
+                            },
+                            {
+                                "name": "filter",
+                                "children": [
+                                    {
+                                        "name": "FisheyeTreeFilter",
+                                        "id": "jtrgwynj",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "GraphDistanceFilter",
+                                        "id": "jtrgwynk",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "VisibilityFilter",
+                                        "id": "jtrgwynl",
+                                        "children": []
+                                    }
+                                ],
+                                "id": "jtrgwyn2"
+                            },
+                            {
+                                "name": "IOperator",
+                                "id": "jtrgwyn3",
+                                "children": []
+                            },
+                            {
+                                "name": "label",
+                                "children": [
+                                    {
+                                        "name": "Labeler",
+                                        "id": "jtrgwynm",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "RadialLabeler",
+                                        "id": "jtrgwynn",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "StackedAreaLabeler",
+                                        "id": "jtrgwyno",
+                                        "children": []
+                                    }
+                                ],
+                                "id": "jtrgwyn4"
+                            },
+                            {
+                                "name": "layout",
+                                "children": [
+                                    {
+                                        "name": "AxisLayout",
+                                        "id": "jtrgwynp",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "BundledEdgeRouter",
+                                        "id": "jtrgwynq",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "CircleLayout",
+                                        "id": "jtrgwynr",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "CirclePackingLayout",
+                                        "id": "jtrgwyns",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "DendrogramLayout",
+                                        "id": "jtrgwynt",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "ForceDirectedLayout",
+                                        "id": "jtrgwynu",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "IcicleTreeLayout",
+                                        "id": "jtrgwynv",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "IndentedTreeLayout",
+                                        "id": "jtrgwynw",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "Layout",
+                                        "id": "jtrgwynx",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "NodeLinkTreeLayout",
+                                        "id": "jtrgwyny",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "PieLayout",
+                                        "id": "jtrgwynz",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "RadialTreeLayout",
+                                        "id": "jtrgwyo0",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "RandomLayout",
+                                        "id": "jtrgwyo1",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "StackedAreaLayout",
+                                        "id": "jtrgwyo2",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "TreeMapLayout",
+                                        "id": "jtrgwyo3",
+                                        "children": []
+                                    }
+                                ],
+                                "id": "jtrgwyn5"
+                            },
+                            {
+                                "name": "Operator",
+                                "id": "jtrgwyn6",
+                                "children": []
+                            },
+                            {
+                                "name": "OperatorList",
+                                "id": "jtrgwyn7",
+                                "children": []
+                            },
+                            {
+                                "name": "OperatorSequence",
+                                "id": "jtrgwyn8",
+                                "children": []
+                            },
+                            {
+                                "name": "OperatorSwitch",
+                                "id": "jtrgwyn9",
+                                "children": []
+                            },
+                            {
+                                "name": "SortOperator",
+                                "id": "jtrgwyna",
+                                "children": []
+                            }
+                        ],
+                        "id": "jtrgwyly"
+                    },
+                    {
+                        "name": "Visualization",
+                        "id": "jtrgwylz",
+                        "children": []
+                    }
+                ],
+                "id": "jtrgwyhe"
+            }
+        ],
+        "id": "jtrgwyh4"
+    }
+]

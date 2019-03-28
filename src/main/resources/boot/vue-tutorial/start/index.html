@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue</title>
+    <script src="../../plugins/vue/vue-2.6.10.js"></script>
+</head>
+
+<body>
+
+    <div id="app" v-cloak>
+        <h2>{{msg}}</h2>
+        <p>{{reversedMsg}}</p>
+        <p v-text="vtext"></p>
+        <p v-html="rawHtml"></p>
+        <p v-pre>{{p}}</p>
+        <p v-once :title="title">{{p}}</p>
+        <p v-bind:title="title">{{p}}</p>
+        <p v-show="flag">{{p}}</p>
+        <button v-on:click="click">click</button>
+        <div>
+            <input @keyUp="keyUp" v-model.lazy.number.trim="vmodel" />{{vmodel}}
+        </div>
+        <ul>
+            <li v-for="i in 5" v-if="i%2===0">{{i}}</li>
+        </ul>
+        <ul>
+            <li v-for="(value,key,index) in info">{{value}}--{{key}}--{{index}}</li>
+        </ul>
+    </div>
+
+    <script>
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                flag: true,
+                msg: 'Hello Vue!',
+                vtext: 'I got it',
+                rawHtml: '<p>rawHtml</p>',
+                p: 'it is OK',
+                info: { id: 1, name: 'Jack' },
+                title: 'This is a title!',
+                vmodel: 'This is a modal!'
+            },
+            methods: {
+                click(e) {
+                    console.log(e);
+                },
+                keyUp(e) {
+                    console.log(e);
+                }
+            },
+            computed: {
+                reversedMsg: function () {
+                    return this.msg.split('').reverse().join('')
+                }
+            }
+        });
+
+        vm.$watch('vmodel', function (nval, oval) {
+            console.log('vmodel:' + oval + ' change ' + nval + '!');
+        });
+    </script>
+</body>
+
+</html>
